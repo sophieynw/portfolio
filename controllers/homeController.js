@@ -1,12 +1,15 @@
 "use strict";
 
-const fs = require("fs");
-const projects = JSON.parse(fs.readFileSync("./data/projects.json"));
+const fs = require("fs"),
+  path = require("path");
+
+const projects = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/projects.json')));
 const projectTypes = [...new Set(projects.map(project => project.type))];
-const stories = JSON.parse(fs.readFileSync("./data/story.json"));
+const stories = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/story.json')));
+
 
 exports.renderIndex = (req, res) => {
-  let home = JSON.parse(fs.readFileSync("./data/home.json"));
+  let home = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/home.json')));
   res.render("index", {
     title: "Home",
     about: home[0].about,
