@@ -11,7 +11,7 @@ html, body {
     box-sizing: border-box;
 }
 
-header {
+.site_header {
     margin-top: -10px;
     display: flex;
     /* align-items: center; */
@@ -19,7 +19,7 @@ header {
 
 .site_header_img {
     margin-left: auto;
-    margin-top: auto;
+    /* margin-top: auto; */
 }
 
 body {
@@ -115,4 +115,6 @@ nav a {
 #profile_img {
     width: 125px;
     height: 125px;
+    margin-left: 15px;
+    margin-top: 30px;
 }
