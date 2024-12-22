@@ -2,7 +2,8 @@
 
 const express = require("express"),
     app = express(),
-    controller = require("./controllers/homeController");
+    controller = require("./controllers/homeController"),
+    port = process.env.PORT || 3000;
 
 app.set("view engine", "ejs");
 
@@ -13,6 +14,8 @@ app.get("/projects", controller.renderProjects);
 app.get("/projects/:type", controller.renderProjectsByType);
 app.get("/story", controller.renderStory);
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
+
+module.exports = app;
