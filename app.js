@@ -14,7 +14,7 @@ app.get("/projects/:type", controller.renderProjectsByType);
 app.get("/story", controller.renderStory);
 
 app.listen(process.env.PORT || 3000, () => {
-  console.log("Server running on port 3000");
+  console.log(`Server running on port ${port}`);
 });
 
 
