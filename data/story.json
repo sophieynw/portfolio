@@ -1,0 +1,61 @@
+[
+    {
+        "date": "2024",
+        "event": "Started SDNE @ Sheridan College",
+        "description": "In May of 2024, I started the Software Development and Network Engineering (SDNE) program at Sheridan College. I've picked up so many new competencies -- functional programming in Python; OOP in Java; exposure to JavaScript frameworks; navigating the CLI; writing boto scripts for AWS services; and so much more! With the passing of every semester, I only grow more excited for the challenges to come."
+    },
+    {
+        "date": "2024",
+        "event": "Fell in love with coding",
+        "description": "Started learning Python for fun and absolutely fell in love. Learning coding had me waking up everyday excited to be alive!! I made the obvious decision to embark on this new journey full-time and go back to school at 30 years old!"
+    },
+    {
+        "date": "2023",
+        "event": "Quarter life crisis",
+        "description": "Post-COVID and post-AI, my tutoring business was rapidly winding down; my Airbnbs were fully automated. I wasn't sure what my next steps would be... I decided to take a couple of months to travel in Asia & visit my grandparents."
+    },
+    {
+        "date": "2022",
+        "event": "Started Airbnb business",
+        "description": "Thanks to COVID, I was able to save up seed money from my first business to buy assets & start an Airbnb business. I designed & renovated three properties -- from furnishing to patching drywall to laying flooring!",
+        "link": "https://www.airbnb.ca/users/show/2301196"
+    },
+    {
+        "date": "2020",
+        "event": "Graduated from UWaterloo",
+        "description": "As soon as I graduated, my tutoring business absolutely exploded when COVID hit due to high demand and shifting landscape for online learning. It wasn't time for me to let it go just yet!",
+        "link": "https://balsillieschool.ca/people/sophie-yanan-wang/"
+    },
+    {
+        "date": "2019",
+        "event": "Worked @ UNICEF in NYC",
+        "description": "Following two semesters of course work, I secured a 6-month internship at the UNICEF headquarters in NYC, working with the UN Girls' Education Initiative. It was an incredible experience to be able to partake in global policy-making at the high-level arena.",
+        "link": "https://medium.com/@sophieywang"
+    },
+    {
+        "date": "2018",
+        "event": "Started MA @ UWaterloo",
+        "description": "A couple years later, I started my MA in Global Governance at the Balsillie School of International Affairs! During my time there, I was particularly interested in investigating intersectional deprivation (i.e., poverty & gender equality). I completed my master's research paper on the indicators which measure deprivation from a gender-reponsive perspective.",
+        "link": "https://1drv.ms/b/c/5727fa028bafab81/EYGrr4sC-icggFeQBwAAAAABPq97HmArwG_3iG0e-Au-QQ?e=Fj4OmN"
+    },
+    {
+        "date": "2016",
+        "event": "Graduated from WesternU",
+        "description": "After graduating, I continued running my steadily growing tutoring business, but knew that I wanted to pursue further education in global affairs & international development..."
+    },
+    {
+        "date": "2015",
+        "event": "Worked in Kenya",
+        "description": "In my final years of uni, I found an intense passion for global affairs. I took one human geography course and was hooked & decided to minor in geography! I went on a summer exchange/internship program to Kenya, and the experience completely shifted my perspective my own privilege and duty as a global citizen."
+    },
+    {
+        "date": "2014",
+        "event": "Started tutoring business",
+        "description": "I quickly realized that I wasn't crazy about becoming an investment banker... but something I did discover to be extremely rewarding through school was helping others. In my third year, my friends encouraged me to start a tutoring business, leveraging my bi-lingual language skills to help Chinese international students."
+    },
+    {
+        "date": "2011",
+        "event": "Started BA @ WesternU",
+        "description": "When I was 17, I had no idea what I should do with my life. I had always excelled at maths and physics; I loved problem-solving; but I also lived for creative self-expression. As a young girl, I chose to go into finance."
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "name": "My Portfolio",
+        "date": "Dec 2024",
+        "type": "web dev",
+        "link": "/",
+        "src": "",
+        "description": "My portfolio was my first start-to-finish, independently-led project outside of school. This project used the Express.js framework, and GitHub and Vercel for deployment."
+    }
+]

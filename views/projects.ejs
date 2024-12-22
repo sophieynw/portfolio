@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include("./partials/head") %>
+  <body class="frame">
+    <%- include("./partials/header") %>
+    <main>
+        <div class="project_types">Sort By:
+            <% projectTypes.forEach(type => { %>
+                <a href="/projects/<%= type %>"><%= type %></a>
+            <% }) %>
+          </div>
+      <div class="content">
+        <% projects.forEach((project) => { %>
+        <div class="project">
+          <p class="project_title">
+            <a href="<%= project.link %>" target="_blank"
+              ><%= project.name %></a>
+          </p>
+          <p class="project_info">
+            <%= project.date %> / <%= project.type %> /
+            <a href="<%= project.src %>" target="_blank">src</a>
+          </p>
+          <p class="project_desc"><%= project.description %></p>
+        </div>
+        <% }); %>
+      </div>
+    </main>
+    <%- include("./partials/footer") %>
+  </body>
+</html>
