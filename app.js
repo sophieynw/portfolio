@@ -10,7 +10,7 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
 app.use('/favicon.ico', express.static(path.join(__dirname, 'public/favicon.ico')));
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get("/", controller.renderIndex);
 app.get("/projects", controller.renderProjects);
