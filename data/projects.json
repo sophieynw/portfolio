@@ -4,7 +4,7 @@
         "date": "Dec 2024",
         "type": "web dev",
         "link": "/",
-        "src": "",
+        "src": "https://github.com/sophieynw/portfolio",
         "description": "My portfolio was my first start-to-finish, independently-led project outside of school. This project used the Express.js framework, and GitHub and Vercel for deployment."
     }
 ]
