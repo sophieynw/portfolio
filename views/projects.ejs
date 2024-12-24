@@ -5,7 +5,7 @@
     <%- include("./partials/header") %>
     <main>
         <div class="project_types">Sort By:
-            <% projectTypes.forEach(type => { %>
+            <% projectTags.forEach(type => { %>
                 <a href="/projects/<%= type %>"><%= type %></a>
             <% }) %>
           </div>
@@ -17,7 +17,7 @@
               ><%= project.name %></a>
           </p>
           <p class="project_info">
-            <%= project.date %> / <%= project.type %> /
+            <%= project.date %> / <%= project.tags.join(" . ") %> /
             <a href="<%= project.src %>" target="_blank">src</a>
           </p>
           <p class="project_desc"><%= project.description %></p>

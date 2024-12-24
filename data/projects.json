@@ -1,10 +1,18 @@
 [
     {
+        "name": "Number Guesser Game",
+        "date": "dec 2024",
+        "tags": ["game", "javascript", "AWS"],
+        "link": "https://syw-number-guesser-game.s3.us-east-1.amazonaws.com/index.html",
+        "src": "https://github.com/sophieynw/number-guesser-game",
+        "description": "A CodeCademy template project demonstrating JavaScript documentation, DOM methods, and event handling; deployed as a static webpage using an AWS S3 bucket."
+    },
+    {
         "name": "My Portfolio",
-        "date": "Dec 2024",
-        "type": "web dev",
+        "date": "dec 2024",
+        "tags": ["web dev", "ejs"],
         "link": "/",
         "src": "https://github.com/sophieynw/portfolio",
-        "description": "My portfolio was my first start-to-finish, independently-led project outside of school. This project used the Express.js framework, and GitHub and Vercel for deployment."
+        "description": "My first start-to-finish, completely independently planned & executed project outside of school. This project used the Express.js framework, and GitHub and Vercel for deployment."
     }
 ]

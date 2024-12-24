@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.get("/", controller.renderIndex);
 app.get("/projects", controller.renderProjects);
-app.get("/projects/:type", controller.renderProjectsByType);
+app.get("/projects/:tag", controller.renderProjectsByTag);
 app.get("/story", controller.renderStory);
 
 app.listen(port, () => {
