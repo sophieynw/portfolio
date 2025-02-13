@@ -1,18 +1,50 @@
 [
     {
-        "name": "Number Guesser Game",
-        "date": "dec 2024",
-        "tags": ["game", "javascript", "AWS"],
-        "link": "https://syw-number-guesser-game.s3.us-east-1.amazonaws.com/index.html",
-        "src": "https://github.com/sophieynw/number-guesser-game",
-        "description": "A CodeCademy template project demonstrating JavaScript documentation, DOM methods, and event handling; deployed as a static webpage using an AWS S3 bucket."
+        "name": "CustomerManager",
+        "date": "2025.02",
+        "tags": [
+            "web dev",
+            "spring boot",
+            "java",
+            "thymeleaf"
+        ],
+        "link": "https://customer-manager-bqht.onrender.com/",
+        "src": "https://github.com/sophieynw/CustomerManager",
+        "description": "A simple customer management CRUD app using Spring Boot & Thymeleaf. Responsively designed using media queries for mobile and desktop."
+    },
+    {
+        "name": "BrainBuddy",
+        "date": "2025.01",
+        "tags": [
+            "web dev",
+            "ai",
+            "react",
+            "flask"
+        ],
+        "link": "https://devpost.com/software/brainbuddy-xrq4du?ref_content=user-portfolio&ref_feature=in_progress",
+        "src": "https://github.com/GrewalCreator/BrainBuddy",
+        "description": "An AI web app with an integrated chatbot that generates personalized flashcards, answers questions, and simplifies learning concepts for users based on the user's selected topic and grad level. A full stack project using Flask & React."
     },
     {
         "name": "My Portfolio",
-        "date": "dec 2024",
-        "tags": ["web dev", "ejs"],
+        "date": "2024.12",
+        "tags": [
+            "web dev",
+            "ejs"
+        ],
         "link": "/",
         "src": "https://github.com/sophieynw/portfolio",
         "description": "My first start-to-finish, completely independently planned & executed project outside of school. This project used the Express.js framework, and GitHub and Vercel for deployment."
+    },
+    {
+        "name": "Number Guesser Game",
+        "date": "2024.12",
+        "tags": [
+            "game",
+            "aws"
+        ],
+        "link": "https://syw-number-guesser-game.s3.us-east-1.amazonaws.com/index.html",
+        "src": "https://github.com/sophieynw/number-guesser-game",
+        "description": "A CodeCademy template project demonstrating JavaScript documentation, DOM methods, and event handling; deployed as a static webpage using an AWS S3 bucket."
     }
 ]
