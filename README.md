@@ -7,7 +7,7 @@ A simple portfolio project using ExpressJS backend.
 Clone the project
 
 ```bash
-git clone git@github.com:sophieynw/portfolio.git
+git clone https://github.com/sophieynw/portfolio.git
 ```
 
 Go to the project directory
