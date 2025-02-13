@@ -22,7 +22,7 @@ Install dependencies
 npm install
 ```
 
-Start the nodemon server
+Start the server with Nodemon
 
 ```bash
 npm run dev
