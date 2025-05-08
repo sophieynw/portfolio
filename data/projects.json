@@ -1,12 +1,45 @@
 [
     {
+        "name": "MoviPlex",
+        "date": "2025.04",
+        "tags": [
+            "angular",
+            "material ui"
+        ],
+        "link": "https://wangyana.dev.fast.sheridanc.on.ca/Angular/Assignment4",
+        "src": "",
+        "description": "A fully responsive Angular web app for booking movie reservations. Uses Angular Material UI for clean and modern design with a focus on component-based architecture."
+    },
+    {
+        "name": "Fridgorithm",
+        "date": "2025.03",
+        "tags": [
+            "ai",
+            "express.js",
+            "react",
+            "azure"
+        ],
+        "link": "https://devpost.com/software/fridgorithm",
+        "src": "https://github.com/sophieynw/fridgorithm",
+        "description": "An AI-powered recipe generator for Azure AI Hackathon. Built with Express.js backend and React frontend. Features voice, image, and text input, and integrates OpenAI with Azure Custom Vision for ingredient detection."
+    },
+    {
+        "name": "BRoast",
+        "date": "2025.03",
+        "tags": [
+            "ai",
+            "flask",
+            "angular"
+        ],
+        "link": "https://devpost.com/software/broast",
+        "src": "https://github.com/sophieynw/broast",
+        "description": "A Gen Z-style resume roaster built with Flask and Angular for BearHacks. Integrates OpenAI and Perplexity APIs to provide humorous and helpful resume feedback. Includes backend auth and frontend integration."
+    },
+    {
         "name": "CustomerManager",
         "date": "2025.02",
         "tags": [
-            "web dev",
-            "spring boot",
-            "java",
-            "thymeleaf"
+            "spring boot"
         ],
         "link": "https://customer-manager-bqht.onrender.com/",
         "src": "https://github.com/sophieynw/CustomerManager",
@@ -16,7 +49,6 @@
         "name": "BrainBuddy",
         "date": "2025.01",
         "tags": [
-            "web dev",
             "ai",
             "react",
             "flask"
@@ -29,8 +61,7 @@
         "name": "My Portfolio",
         "date": "2024.12",
         "tags": [
-            "web dev",
-            "ejs"
+            "express.js"
         ],
         "link": "/",
         "src": "https://github.com/sophieynw/portfolio",

@@ -2,7 +2,8 @@
     font-family: "Space Mono", serif;
 }
 
-html, body {
+html,
+body {
     margin: 15px;
     padding: 0;
     height: auto;
@@ -53,12 +54,12 @@ body {
 
 .project_desc {
     font-size: smaller;
-    display: none;
-}
-
-.project:hover .project_desc {
     display: block;
 }
+
+/* .project:hover .project_desc {
+    display: block;
+} */
 
 .story {
     display: flex;
@@ -76,8 +77,18 @@ body {
     padding-left: 10px;
 }
 
+.story_date {
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
 .story_body {
     font-size: smaller;
+    display: none;
+}
+
+.story:hover .story_body {
+    display: block;
 }
 
 footer {
@@ -85,7 +96,8 @@ footer {
     margin-bottom: 10px;
 }
 
-ul, li {
+ul,
+li {
     list-style-type: none;
     padding: 0;
     margin: 0;

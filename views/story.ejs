@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <%- include("./partials/head") %>
-  <body class="frame">
-    <%- include("./partials/header") %>
-    <main>
-      <div class="content">
-        <% stories.forEach((story) => { %>
-        <article class="story">
-          <div class="story_text">
-            <div class="story_head">
-              <p>
-                <% if (story.link) { %>
-                <a href="<%= story.link %>" target="_blank"
-                  ><%= story.event %></a
-                >
-                <% } else { %> <%= story.event %> <% } %>
-              </p>
-              <p><%= story.date %></p>
+    <%- include("./partials/head") %>
+    <body class="frame">
+        <%- include("./partials/header") %>
+        <main>
+            <div class="content">
+                <% stories.forEach((story) => { %>
+                <article class="story">
+                    <div class="story_text">
+                        <div class="story_head">
+                            <p>
+                                <% if (story.link) { %>
+                                <a href="<%= story.link %>" target="_blank"
+                                    ><%= story.event %></a
+                                >
+                                <% } else { %> <%= story.event %> <% } %>
+                            </p>
+                            <p class="story_date"><%= story.date %></p>
+                        </div>
+                        <p class="story_body"><%= story.description %></p>
+                    </div>
+                </article>
+                <% }) %>
             </div>
-            <p class="story_body"><%= story.description %></p>
-          </div>
-        </article>
-        <% }) %>
-      </div>
-    </main>
-    <%- include("./partials/footer") %>
-  </body>
+        </main>
+        <%- include("./partials/footer") %>
+    </body>
 </html>
