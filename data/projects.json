@@ -8,7 +8,7 @@
         ],
         "link": "https://movi-plex.vercel.app/home",
         "src": "",
-        "description": "A fully responsive Angular web app for booking movie reservations. Uses Angular Material UI for clean and modern design with a focus on component-based architecture."
+        "description": "A fully responsive Angular web app for booking movie reservations. Uses Material UI for clean and modern design with a focus on component-based architecture."
     },
     {
         "name": "Fridgorithm",
@@ -21,7 +21,8 @@
         ],
         "link": "https://devpost.com/software/fridgorithm",
         "src": "https://github.com/sophieynw/fridgorithm",
-        "description": "An AI-powered recipe generator for Azure AI Hackathon. Built with Express.js backend and React frontend. Features voice, image, and text input, and integrates OpenAI with Azure Custom Vision for ingredient detection."
+        "description": "An AI-powered recipe generator built for the Azure AI Hackathon using React and an Express.js backend. Supports voice, image, and text input; integrates OpenAI and Azure Custom Vision for ingredient detection.",
+        "contribution": "Developed the Express.js backend; implemented authentication, integrated OpenAI and Azure Custom Vision APIs, and trained an Azure Custom Vision model that achieved 72% accuracy in identifying select produce items. Managed the project and GitHub repo, set up collaboration workflows, and resolved merge conflicts."
     },
     {
         "name": "BRoast",
@@ -33,7 +34,8 @@
         ],
         "link": "https://devpost.com/software/broast",
         "src": "https://github.com/sophieynw/broast",
-        "description": "A Gen Z-style resume roaster built with Flask and Angular for BearHacks. Integrates OpenAI and Perplexity APIs to provide humorous and helpful resume feedback. Includes backend auth and frontend integration."
+        "description": "A Gen Z-style resume roaster built with Flask and Angular for BearHacks. Integrates OpenAI and Perplexity APIs to provide humorous and helpful resume feedback. Includes backend auth and frontend integration.",
+        "contribution": "Developed the Flask backend; integrated OpenAI and Perplexity APIs, engineered prompts for resume feedback and job suggestions, and implemented secure user authentication. Managed the project and GitHub repo, resolved merge conflicts, set up both front and backend, and integrated backend API calls with the frontend."
     },
     {
         "name": "CustomerManager",
@@ -43,7 +45,7 @@
         ],
         "link": "https://customer-manager-bqht.onrender.com/",
         "src": "https://github.com/sophieynw/CustomerManager",
-        "description": "A simple customer management CRUD app using Spring Boot & Thymeleaf. Responsively designed using media queries for mobile and desktop."
+        "description": "A simple customer management CRUD app using Spring Boot & Thymeleaf. Responsively designed using media queries for mobile and desktop. Developed the full-stack application using Spring Boot and Thymeleaf; implemented CRUD operations, responsive layout, and input validation."
     },
     {
         "name": "BrainBuddy",
@@ -55,7 +57,8 @@
         ],
         "link": "https://devpost.com/software/brainbuddy-xrq4du?ref_content=user-portfolio&ref_feature=in_progress",
         "src": "https://github.com/GrewalCreator/BrainBuddy",
-        "description": "An AI web app with an integrated chatbot that generates personalized flashcards, answers questions, and simplifies learning concepts for users based on the user's selected topic and grad level. A full stack project using Flask & React."
+        "description": "An AI web app with an integrated chatbot that generates personalized flashcards, answers questions, and simplifies learning concepts for users based on the user's selected topic and grad level. A full stack project using Flask & React.",
+        "contribution": "Built the Flask backend; implemented user authentication and API endpoints to dynamically generate flashcards and simplify learning content based on user input."
     },
     {
         "name": "My Portfolio",
@@ -65,7 +68,7 @@
         ],
         "link": "/",
         "src": "https://github.com/sophieynw/portfolio",
-        "description": "My first start-to-finish, completely independently planned & executed project outside of school. This project used the Express.js framework, and GitHub and Vercel for deployment."
+        "description": "My first start-to-finish, completely independently planned & executed project outside of school. Developed with Express.js and deployed using GitHub and Vercel."
     },
     {
         "name": "Number Guesser Game",
@@ -76,6 +79,6 @@
         ],
         "link": "https://syw-number-guesser-game.s3.us-east-1.amazonaws.com/index.html",
         "src": "https://github.com/sophieynw/number-guesser-game",
-        "description": "A CodeCademy template project demonstrating JavaScript documentation, DOM methods, and event handling; deployed as a static webpage using an AWS S3 bucket."
+        "description": "A template project from Codecademy that showcases JavaScript fundamentals including DOM manipulation and event handling. Deployed as a static site via AWS S3."
     }
 ]

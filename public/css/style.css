@@ -57,6 +57,11 @@ body {
     display: block;
 }
 
+.project_contr {
+    font-size: smaller;
+    display: block;
+}
+
 /* .project:hover .project_desc {
     display: block;
 } */

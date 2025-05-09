@@ -25,6 +25,12 @@
                         <a href="<%= project.src %>" target="_blank">src</a>
                     </p>
                     <p class="project_desc"><%= project.description %></p>
+                    <p class="project_contr">
+                        <% if (project.contribution) { %>
+                        <strong><em>My Contribution:</em></strong> <%=
+                        project.contribution %>
+                    </p>
+                    <% } %>
                 </div>
                 <% }); %>
             </div>
