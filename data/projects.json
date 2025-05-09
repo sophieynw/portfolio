@@ -6,7 +6,7 @@
             "angular",
             "material ui"
         ],
-        "link": "https://wangyana.dev.fast.sheridanc.on.ca/Angular/Assignment4",
+        "link": "https://movi-plex.vercel.app/home",
         "src": "",
         "description": "A fully responsive Angular web app for booking movie reservations. Uses Angular Material UI for clean and modern design with a focus on component-based architecture."
     },
