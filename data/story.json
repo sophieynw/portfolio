@@ -1,5 +1,11 @@
 [
     {
+        "date": "• 2025",
+        "event": "SWE @ Jitto",
+        "description": "I completed an 8-month SWE co-op at Jitto, a produce wholesaler startup in Toronto. I designed and implemented full-stack features, refactored legacy code, reviewed PRs, and fixed critical bugs in the production environment.",
+        "link": "getjitto.com"
+    },
+    {
         "date": "• 2024",
         "event": "Started SDNE @ Sheridan College",
         "description": "In May of 2024, I started the Software Development and Network Engineering (SDNE) program at Sheridan College. I've picked up so many new competencies -- functional programming in Python; OOP in Java; exposure to JavaScript frameworks; navigating the CLI; writing boto scripts for AWS services; and so much more! With the passing of every semester, I only grow more excited for the challenges to come."
