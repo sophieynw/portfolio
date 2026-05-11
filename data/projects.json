@@ -1,5 +1,35 @@
 [
     {
+        "name": "FireTechBud",
+        "date": "2026.05",
+        "tags": [
+            "iot", "aws", "react native"
+        ],
+        "link": "",
+        "src": "",
+        "description": "WiFi-enabled IoT device which controls relay switch on fire alarm panels to enable fire alarm safety technicians to complete inspections without a second technician, leading to significant labour cost savings for small businesses."
+    },
+    {
+        "name": "Valentine's Love Letters",
+        "date": "2026.02",
+        "tags": [
+            "aws", "react", "python"
+        ],
+        "link": "http://ily-app.s3-website.us-east-2.amazonaws.com/",
+        "src": "https://github.com/sophieynw/ily-app",
+        "description": "A just-for-fun weekend project! Try one of these names: Lucy, Wing, Oscar, Monica."
+    },
+    {
+        "name": "Fire Predictor",
+        "date": "2025.06",
+        "tags": [
+            "ml", "react", "flask"
+        ],
+        "link": "https://fire-frontend-gamma.vercel.app/",
+        "src": "https://github.com/sophieynw/fire-frontend",
+        "description": "A frontend serving a Random Forest Classifier model for predicting forest fires based on a simulated dataset."
+    },
+    {
         "name": "MoviPlex",
         "date": "2025.04",
         "tags": [
